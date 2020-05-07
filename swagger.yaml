@@ -112,6 +112,8 @@ responses:
     description: An unexpected error occured.
     schema:
       $ref: "#/definitions/Error"
+  PersonDoesNotExistResponse:
+    description: Person does not exist.
 
 parameters:
   username:
